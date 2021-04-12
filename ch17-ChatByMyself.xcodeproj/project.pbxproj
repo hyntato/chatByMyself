@@ -12,6 +12,20 @@
 		8450CC7124909BD9003286A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC6F24909BD9003286A4 /* Main.storyboard */; };
 		8450CC7324909BDC003286A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC7224909BDC003286A4 /* Assets.xcassets */; };
 		8450CC7624909BDC003286A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC7424909BDC003286A4 /* LaunchScreen.storyboard */; };
+		8450CC8224909C98003286A4 /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC7D24909C95003286A4 /* login.jpg */; };
+		8450CC8324909C98003286A4 /* female.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC7E24909C96003286A4 /* female.jpg */; };
+		8450CC8424909C98003286A4 /* register.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC7F24909C97003286A4 /* register.jpg */; };
+		8450CC8524909C98003286A4 /* male.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC8024909C97003286A4 /* male.jpg */; };
+		8450CC8624909C98003286A4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC8124909C98003286A4 /* background.jpg */; };
+		8450CC882490ACE0003286A4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC872490ACE0003286A4 /* WelcomeViewController.swift */; };
+		8450CC8A2490ACF1003286A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC892490ACF1003286A4 /* LoginViewController.swift */; };
+		8450CC8C2490AD01003286A4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC8B2490AD01003286A4 /* RegisterViewController.swift */; };
+		8450CC8E2490AD10003286A4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC8D2490AD10003286A4 /* ChatViewController.swift */; };
+		8450CC932490ADCC003286A4 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8450CC8F2490ADC9003286A4 /* MessageView.xib */; };
+		8450CC942490ADCC003286A4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC902490ADCA003286A4 /* Message.swift */; };
+		8450CC952490ADCC003286A4 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC912490ADCB003286A4 /* MessageView.swift */; };
+		8450CC962490ADCC003286A4 /* MessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC922490ADCC003286A4 /* MessageViewCell.swift */; };
+		8450CC982490B815003286A4 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CC972490B815003286A4 /* MessageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		8450CC7224909BDC003286A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8450CC7524909BDC003286A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8450CC7724909BDC003286A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8450CC7D24909C95003286A4 /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login.jpg; sourceTree = "<group>"; };
+		8450CC7E24909C96003286A4 /* female.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = female.jpg; sourceTree = "<group>"; };
+		8450CC7F24909C97003286A4 /* register.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = register.jpg; sourceTree = "<group>"; };
+		8450CC8024909C97003286A4 /* male.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = male.jpg; sourceTree = "<group>"; };
+		8450CC8124909C98003286A4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		8450CC872490ACE0003286A4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8450CC892490ACF1003286A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8450CC8B2490AD01003286A4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8450CC8D2490AD10003286A4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8450CC8F2490ADC9003286A4 /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		8450CC902490ADCA003286A4 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8450CC912490ADCB003286A4 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		8450CC922490ADCC003286A4 /* MessageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
+		8450CC972490B815003286A4 /* MessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +85,23 @@
 				8450CC6B24909BD9003286A4 /* AppDelegate.swift */,
 				8450CC6D24909BD9003286A4 /* ViewController.swift */,
 				8450CC6F24909BD9003286A4 /* Main.storyboard */,
+				8450CC8124909C98003286A4 /* background.jpg */,
+				8450CC7E24909C96003286A4 /* female.jpg */,
+				8450CC7D24909C95003286A4 /* login.jpg */,
+				8450CC8024909C97003286A4 /* male.jpg */,
+				8450CC7F24909C97003286A4 /* register.jpg */,
 				8450CC7224909BDC003286A4 /* Assets.xcassets */,
 				8450CC7424909BDC003286A4 /* LaunchScreen.storyboard */,
 				8450CC7724909BDC003286A4 /* Info.plist */,
+				8450CC902490ADCA003286A4 /* Message.swift */,
+				8450CC912490ADCB003286A4 /* MessageView.swift */,
+				8450CC8F2490ADC9003286A4 /* MessageView.xib */,
+				8450CC922490ADCC003286A4 /* MessageViewCell.swift */,
+				8450CC872490ACE0003286A4 /* WelcomeViewController.swift */,
+				8450CC892490ACF1003286A4 /* LoginViewController.swift */,
+				8450CC8B2490AD01003286A4 /* RegisterViewController.swift */,
+				8450CC8D2490AD10003286A4 /* ChatViewController.swift */,
+				8450CC972490B815003286A4 /* MessageStore.swift */,
 			);
 			path = "ch17-ChatByMyself";
 			sourceTree = "<group>";
@@ -122,7 +164,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8450CC8424909C98003286A4 /* register.jpg in Resources */,
 				8450CC7624909BDC003286A4 /* LaunchScreen.storyboard in Resources */,
+				8450CC8224909C98003286A4 /* login.jpg in Resources */,
+				8450CC932490ADCC003286A4 /* MessageView.xib in Resources */,
+				8450CC8324909C98003286A4 /* female.jpg in Resources */,
+				8450CC8524909C98003286A4 /* male.jpg in Resources */,
+				8450CC8624909C98003286A4 /* background.jpg in Resources */,
 				8450CC7324909BDC003286A4 /* Assets.xcassets in Resources */,
 				8450CC7124909BD9003286A4 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8450CC962490ADCC003286A4 /* MessageViewCell.swift in Sources */,
+				8450CC982490B815003286A4 /* MessageStore.swift in Sources */,
+				8450CC8A2490ACF1003286A4 /* LoginViewController.swift in Sources */,
+				8450CC8C2490AD01003286A4 /* RegisterViewController.swift in Sources */,
+				8450CC882490ACE0003286A4 /* WelcomeViewController.swift in Sources */,
 				8450CC6E24909BD9003286A4 /* ViewController.swift in Sources */,
+				8450CC952490ADCC003286A4 /* MessageView.swift in Sources */,
+				8450CC8E2490AD10003286A4 /* ChatViewController.swift in Sources */,
 				8450CC6C24909BD9003286A4 /* AppDelegate.swift in Sources */,
+				8450CC942490ADCC003286A4 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
